@@ -1,0 +1,30 @@
+/.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+/.mypy_cache/
+/.pytest_cache/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python env
+.env
+.env.*
+
+# SQLite DB
+*.db
+backend/data.db
+
+# Reset links (dev-only)
+backend/reset_links.jsonl
+
+# VS Code
+.vscode/
+
+# Node
+node_modules/

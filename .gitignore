@@ -12,9 +12,10 @@ build/
 .DS_Store
 Thumbs.db
 
-# Python env
+# Python env (but allow .env.example as a template)
 .env
-.env.*
+.env.local
+.env.*.local
 
 # SQLite DB
 *.db
